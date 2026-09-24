@@ -1,0 +1,12 @@
+requires 1.4.0
+cd lights
+convert light -out=../process
+cd ../process
+calibrate light -cfa -equalize_cfa
+seqextract_HaOIII pp_light
+register Ha_pp_light -drizzle -scale=2.0
+stack r_Ha_pp_light rej 3 3 -norm=addscale -output_norm -out=../Ha_result
+register OIII_pp_light
+stack r_OIII_pp_light rej 3 3 -norm=addscale -output_norm -out=../OIII_result
+cd ..
+close
