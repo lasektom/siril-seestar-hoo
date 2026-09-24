@@ -57,7 +57,7 @@ Western Veil, NGC 6960. Seestar S30 Pro, 300 × 30 s, 2.5 hours total, Bortle 4.
 
 ![RGB](examples/veil-rgb.jpg) ![HOO](examples/veil-hoo.jpg)
 
-Left: conventional RGB stack. Right: HOO via this script.
+Top: conventional RGB stack. Bottom: HOO via this script.
 
 ## Notes
 
